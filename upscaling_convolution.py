@@ -94,7 +94,6 @@ def upcaling(filename,upscale_value):
 
             # Get coeffs
             conv_coeffs = convolution_get_coeffs(y_frac,filter_size,filter_fct)
-
             conv_pixels = convolution_get_pixels(x_,int(y_),x_upscale_im,filter_size,axis="y")
 
             # Convolution 1d
